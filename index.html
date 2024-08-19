@@ -25,6 +25,7 @@
           clifford: '#da373d',
           'bike-primary': '#E76F51',
           'bike-bg': 'rgba(231, 111, 81, 0.1);',
+          'bike-para': 'rgba(0, 0, 0, 0.7)',
         }
       }
     }
@@ -96,7 +97,7 @@
                         <h2 class="text-6xl font-bold">
                             Ride-on R15 V4 <br> with Smile
                         </h2>
-                        <p>
+                        <p class="text-bike-para">
                             Amet minim mollit non deserunt ullamco 
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
@@ -123,7 +124,7 @@
                         <h2 class="text-6xl font-bold">
                             Ride-on R15 V4 <br> with Smile
                         </h2>
-                        <p>
+                        <p class="text-bike-para">
                             Amet minim mollit non deserunt ullamco 
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
@@ -151,7 +152,7 @@
                         <h2 class="text-6xl font-bold">
                             Ride-on R15 V4 <br> with Smile
                         </h2>
-                        <p>
+                        <p class="text-bike-para">
                             Amet minim mollit non deserunt ullamco 
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
@@ -182,10 +183,10 @@
 
 
     <!-- main section start -->
-     <main class="container mx-auto">
+     <main class="container mx-auto px-10">
         <!-- Feauters BIke section start -->
         <section>
-            <div class="pt-4 space-y-8">
+            <div class="py-12 space-y-8">
                 <div class="text-center">
                     <h1 class="text-6xl font-bold">Fetured Bikes In This Year</h1>
                     <P class="text-bike-primary ">Best bike collection</P>
@@ -200,6 +201,60 @@
             </div>
         </section>
         <!-- Feauters BIke section end -->
+
+        <!-- latest bike section -->
+        <section class="pb-12">
+            <h2 class="text-5xl font-bold text-center pb-10">Latest News</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- card1 -->
+                <div class="card bg-base-100 mx-auto shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest1.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-bold text-2xl">Ducati XDIAVEL S-73</h2>
+                      <p class="text-bike-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card2 -->
+                <div class="card bg-base-100 mx-auto shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest2.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-bold text-2xl">Motorcycles & Scooters</h2>
+                      <p class="text-bike-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card3 -->
+                <div class="card bg-base-100 mx-auto shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest3.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-bold text-2xl">2021 Honda CBR500R</h2>
+                      <p class="text-bike-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- latest bike section -->
 
      </main>
     <!-- main section end -->
